@@ -59,6 +59,6 @@ nav a {
 
     .hero-left,
     .hero-right {
-        flex: 1; /* cada lado ocupa metade da largura */
+        width: 50%; /* cada lado ocupa metade da largura */
     }
 }
