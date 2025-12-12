@@ -20,24 +20,26 @@ font-size: 48px;
 }
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center; /* centraliza verticalmente */
     padding: 16px;
     background: var(--dark);
     color: white;
-    justify-content: space-between;
-    align-items: center;
 }
+
+/* Logo */
 .logo-header {
-    height: 40px;
+    height: 24px;
     width: auto;
     display: block;
-    object-fit: contain;
 }
+
+/* Navegação */
 nav a {
     color: white;
     text-decoration: none;
     margin-left: 12px;
 }
-
 /* Mobile-first */
 .hero {
     padding: 20px;
