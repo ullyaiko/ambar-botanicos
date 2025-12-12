@@ -46,6 +46,6 @@ nav a {
     .hero {
         display: flex;
         justify-content: space-between;
-        padding: 60px;
+        padding: 40px;
     }
 }
