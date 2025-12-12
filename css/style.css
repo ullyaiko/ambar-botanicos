@@ -19,7 +19,7 @@ h1 {
 font-size: 5em;
 }
 /* =======================
-   HEADER (otimizado)
+   HEADER (desktop)
 ======================= */
 
 /* Container geral do cabeçalho */
@@ -65,57 +65,5 @@ font-size: 5em;
         margin-left: 0;
         margin-right: 16px;
         font-size: 15px;
-    }
-}
-
-.logo {
-    height: 24px;
-    width: auto;
-}
-
-/* Menu */
-.menu a {
-    text-decoration: none;
-    color: #252525;
-    margin-left: 24px;
-    font-family: "Akzidenz Grotesk", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-/* ===== MOBILE FIRST ===== */
-@media (max-width: 600px) {
-    .header-container {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .menu a {
-        margin-left: 0;
-        margin-right: 16px;
-    }
-}
-
-.logo-header {
-    height: 48px;
-    width: auto;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 12px;
-}
-
-/* Mobile-first */
-.hero {
-    padding: 20px;
-}
-
-@media (min-width: 768px) {
-    .hero {
-        display: flex;
-        justify-content: space-between;
-        padding: 60px;
     }
 }
