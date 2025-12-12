@@ -15,21 +15,20 @@ body {
 h1, h2, h3 {
     font-family: 'Akzidenz Grotesk', sans-serif;
 }
+
 h2 {
 font-size: 48px;
 }
 
-/* HEADER */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;    /* alinha verticalmente */
     padding: 16px;
     background: var(--dark);
     color: white;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Logo */
 .logo-header {
     height: 40px;
     width: auto;
@@ -37,18 +36,12 @@ header {
     object-fit: contain;
 }
 
-/* NAV EM FLEX */
-nav {
-    display: flex;          /* links lado a lado */
-    align-items: center;
-    gap: 12px;              /* controla o espaçamento */
-}
-
 nav a {
     color: white;
     text-decoration: none;
-    font-family: 'Courier Prime', monospace;
+    margin-left: 12px;
 }
+
 @media (min-width: 768px) {
     .hero {
         display: flex;
