@@ -18,10 +18,12 @@ h1, h2, h3 {
 h2 {
 font-size: 48px;
 }
+
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* centraliza verticalmente */
+    align-items: center;    /* alinha verticalmente */
     padding: 16px;
     background: var(--dark);
     color: white;
@@ -32,20 +34,21 @@ header {
     height: 24px;
     width: auto;
     display: block;
+    object-fit: contain;
 }
 
-/* Navegação */
+/* NAV EM FLEX */
+nav {
+    display: flex;          /* links lado a lado */
+    align-items: center;
+    gap: 12px;              /* controla o espaçamento */
+}
+
 nav a {
-    display: inline-block;  /* mantém links na horizontal */
     color: white;
     text-decoration: none;
-    margin-left: 12px;
+    font-family: 'Courier Prime', monospace;
 }
-/* Mobile-first */
-.hero {
-    padding: 20px;
-}
-
 @media (min-width: 768px) {
     .hero {
         display: flex;
