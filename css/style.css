@@ -41,6 +41,9 @@ nav a {
     text-decoration: none;
     margin-left: 12px;
 }
+section {
+    padding: 60px;
+}
 
 /* HERO - MOBILE FIRST */
 .hero {
