@@ -69,3 +69,50 @@ nav a {
      .hero-left h1{
          font-size: 5em;
 }
+
+/* ============================
+   PRODUTOS — MOBILE FIRST
+============================ */
+
+.product-section {
+    padding: 20px;
+}
+
+.product-block {
+    margin-top: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Título do produto */
+.product-info h3 {
+    font-size: 32px;
+    margin-top: 16px;
+}
+
+/* ============================
+   DESKTOP (lado a lado)
+============================ */
+@media (min-width: 768px) {
+    .product-block {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .product-image,
+    .product-info {
+        width: 50%;
+    }
+
+    .product-info h3 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+}
+
