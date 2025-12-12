@@ -41,9 +41,6 @@ nav a {
     text-decoration: none;
     margin-left: 12px;
 }
-section, .hero {
-    padding: 60px;
-}
 
 /* HERO - MOBILE FIRST */
 .hero {
@@ -52,6 +49,9 @@ section, .hero {
 
 /* Desktop: lado a lado */
 @media (min-width: 768px) {
+    section {
+    padding: 60px;
+}
     .hero {
         display: flex;
         align-items: center;
