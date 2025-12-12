@@ -26,8 +26,10 @@ header {
     justify-content: space-between;
 }
 .logo-header {
-    height: 24px;
-    width: auto;
+    height: 24px !important;
+    width: auto !important;
+    display: block;
+    object-fit: contain;
 }
 nav a {
     color: white;
