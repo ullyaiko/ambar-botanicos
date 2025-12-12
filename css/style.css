@@ -15,8 +15,8 @@ body {
 h1, h2, h3 {
     font-family: 'Akzidenz Grotesk', sans-serif;
 }
-h1 {
-font-size: 40px;
+h2 {
+font-size: 48px;
 }
 header {
     display: flex;
