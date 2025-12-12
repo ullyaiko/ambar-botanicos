@@ -15,19 +15,13 @@ body {
 h1, h2, h3 {
     font-family: 'Akzidenz Grotesk', sans-serif;
 }
-h1 {
-font-size: 5em;
-}
+
 header {
     display: flex;
     padding: 16px;
     background: var(--dark);
     color: white;
     justify-content: space-between;
-}
-.logo-header {
-    height: 48px;
-    width: auto;
 }
 
 nav a {
