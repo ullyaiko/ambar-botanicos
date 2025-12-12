@@ -26,8 +26,8 @@ header {
     justify-content: space-between;
 }
 .logo-header {
-    height: 40px !important;
-    width: auto !important;
+    height: 40px;
+    width: auto;
     display: block;
     object-fit: contain;
 }
