@@ -47,31 +47,18 @@ nav a {
     padding: 20px;
 }
 
-/* Conteúdo interno */
-.hero-text {
-    max-width: 800px;
-}
-
-/* Título grande */
-.hero h1 {
-    font-size: 64px;     /* ajuste livre */
-    margin: 0 0 16px 0;
-}
-
-/* Texto */
-.hero p {
-    font-size: 18px;
-    line-height: 1.6;
-    max-width: 600px;
-}
-
-/* DESKTOP: coloca lado a lado */
+/* Desktop: lado a lado */
 @media (min-width: 768px) {
     .hero {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 40px;   /* espaço entre os lados */
         padding: 60px;
-        gap: 60px;   /* espaço entre título e texto */
+    }
+
+    .hero-left,
+    .hero-right {
+        flex: 1;     /* cada lado ocupa metade da largura */
     }
 }
