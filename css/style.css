@@ -18,13 +18,85 @@ h1, h2, h3 {
 h1 {
 font-size: 5em;
 }
-header {
+/* =======================
+   HEADER (otimizado)
+======================= */
+
+/* Container geral do cabeçalho */
+.site-header {
+    background-color: #FFFAEF;
+    padding: 12px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Área interna com logo + menu */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
     display: flex;
-    padding: 16px;
-    background: var(--dark);
-    color: white;
+    align-items: center;
     justify-content: space-between;
 }
+
+/* Logo */
+.logo {
+    height: 48px;
+    width: auto;
+}
+
+/* Menu */
+.menu a {
+    text-decoration: none;
+    color: #252525;
+    font-family: "Akzidenz Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+/* ========== MOBILE FIRST ========== */
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .menu a {
+        margin-left: 0;
+        margin-right: 16px;
+        font-size: 15px;
+    }
+}
+
+.logo {
+    height: 48px;
+    width: auto;
+}
+
+/* Menu */
+.menu a {
+    text-decoration: none;
+    color: #252525;
+    margin-left: 24px;
+    font-family: "Akzidenz Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* ===== MOBILE FIRST ===== */
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .menu a {
+        margin-left: 0;
+        margin-right: 16px;
+    }
+}
+
 .logo-header {
     height: 48px;
     width: auto;
