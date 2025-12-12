@@ -36,10 +36,10 @@ header {
 
 /* Navegação */
 nav a {
+    display: inline-block;  /* mantém links na horizontal */
     color: white;
     text-decoration: none;
     margin-left: 12px;
-    display: inline-block;
 }
 /* Mobile-first */
 .hero {
