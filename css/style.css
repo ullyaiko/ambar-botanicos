@@ -41,7 +41,7 @@ nav a {
     text-decoration: none;
     margin-left: 12px;
 }
-section {
+section, .hero {
     padding: 60px;
 }
 
