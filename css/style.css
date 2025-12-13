@@ -54,11 +54,17 @@ h3 {
 
 /* MENU */
 .main-nav ul {
-    list-style: none;
+    list-style: none;      /* remove as bolinhas */
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 24px;
+    display: flex;         /* coloca os itens lado a lado */
+    gap: 24px;             /* espaço entre os links */
+    align-items: center;
+}
+
+.main-nav li {
+    margin: 0;
+    padding: 0;
 }
 
 .main-nav a {
@@ -66,6 +72,7 @@ h3 {
     text-decoration: none;
     font-size: 18px;
 }
+
 
 /* ============================
    HERO — MOBILE FIRST
