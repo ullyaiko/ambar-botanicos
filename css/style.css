@@ -100,7 +100,7 @@ h3 {
         display: flex;
         align-items: center;
         justify-content: center; /* traz o conteúdo para o centro */
-        gap: 32px;               /* aproxima os dois lados */
+        gap: 60px;               /* aproxima os dois lados */
         padding: 0;              /* remove padding duplicado */
         max-width: 1200px;       /* limita a largura do conteúdo */
         margin: 0 auto;          /* centraliza respeitando os 60px da section */
@@ -113,7 +113,7 @@ h3 {
     }
 
     .hero-left h1 {
-        font-size: 5em;
+        font-size: 6em;
     }
 }
 
