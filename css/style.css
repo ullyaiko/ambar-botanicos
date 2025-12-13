@@ -97,16 +97,19 @@ h3 {
     }
 
     .hero {
-        max-width: 1200px;
-        margin: 0 auto;
         display: flex;
         align-items: center;
-        gap: 60px;
+        justify-content: center; /* traz o conteúdo para o centro */
+        gap: 32px;               /* aproxima os dois lados */
+        padding: 0;              /* remove padding duplicado */
+        max-width: 1200px;       /* limita a largura do conteúdo */
+        margin: 0 auto;          /* centraliza respeitando os 60px da section */
     }
 
     .hero-left,
     .hero-right {
-        width: 50%;
+        width: auto;             /* remove o 50% fixo */
+        max-width: 50%;
     }
 
     .hero-left h1 {
