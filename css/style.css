@@ -117,23 +117,24 @@ h3 {
     }
 }
 /* ==========================
-   PARCEIROS
+   LOGOS GRID (Parceiros / Clientes)
 ========================== */
 
-.partners {
+.logos-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 32px;
     margin-top: 32px;
+    align-items: start;
 }
 
-/* Card individual */
-.partner-item {
+/* Item individual */
+.logo-item {
     text-align: center;
 }
 
 /* Círculo do logo */
-.partner-logo {
+.logo-circle {
     width: 120px;
     height: 120px;
     margin: 0 auto 12px;
@@ -145,29 +146,30 @@ h3 {
     justify-content: center;
 }
 
-.partner-logo img {
+.logo-circle img {
     max-width: 70%;
     max-height: 70%;
+    object-fit: contain;
 }
 
-/* Nome */
-.partner-item span {
+/* Nome (opcional) */
+.logo-item span {
     display: block;
     font-size: 16px;
 }
 
-/* Desktop */
+/* Ajustes de desktop */
 @media (min-width: 768px) {
-    .partners {
-        grid-template-columns: repeat(3, 1fr);
+    .logos-grid {
         gap: 48px;
     }
 
-    .partner-logo {
+    .logo-circle {
         width: 140px;
         height: 140px;
     }
 }
+
 
 /* ============================
    PRODUTOS
