@@ -75,7 +75,7 @@ h3 {
 
 
 /* ============================
-   HERO — MOBILE FIRST
+   DESCRIÇÃO — MOBILE FIRST
 ============================ */
 
 .hero {
@@ -87,7 +87,7 @@ h3 {
 }
 
 /* ============================
-   DESKTOP
+   DESCRIÇÃO - DESKTOP
 ============================ */
 
 @media (min-width: 768px) {
@@ -114,6 +114,58 @@ h3 {
 
     .hero-left h1 {
         font-size: 6em;
+    }
+}
+/* ==========================
+   PARCEIROS
+========================== */
+
+.partners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 32px;
+}
+
+/* Card individual */
+.partner-item {
+    text-align: center;
+}
+
+/* Círculo do logo */
+.partner-logo {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 12px;
+    background: #f0f0f0;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-logo img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* Nome */
+.partner-item span {
+    display: block;
+    font-size: 16px;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .partners {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+    }
+
+    .partner-logo {
+        width: 140px;
+        height: 140px;
     }
 }
 
